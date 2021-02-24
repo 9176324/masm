@@ -3,11 +3,7 @@
 	"displayName": "MASM",
 	"description": "Microsoft Macro Assembler language support for VS Code",
 	"version": "0.0.4",
-<<<<<<< HEAD
 	"publisher": "blindtiger",
-=======
-	"publisher": "bltg-team",
->>>>>>> d37648d09d7bf2c65d664eb5e1f32428d59dd042
 	"icon": "images/icon.png",
 	"author": {
 		"name": "blindtiger"
@@ -20,7 +16,9 @@
 		"vscode": "^1.23.0"
 	},
 	"categories": [
-		"Languages"
+		"Programming Languages",
+		"Formatters",
+		"Snippets"
 	],
 	"contributes": {
 		"languages": [
