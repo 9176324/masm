@@ -1,0 +1,66 @@
+{
+	"name": "masm",
+	"displayName": "MASM",
+	"description": "Microsoft Macro Assembler language support for VS Code",
+	"version": "0.0.4",
+<<<<<<< HEAD
+	"publisher": "blindtiger",
+=======
+	"publisher": "bltg-team",
+>>>>>>> d37648d09d7bf2c65d664eb5e1f32428d59dd042
+	"icon": "images/icon.png",
+	"author": {
+		"name": "blindtiger"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/9176324/masm.git"
+	},
+	"engines": {
+		"vscode": "^1.23.0"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "masm",
+				"aliases": [
+					"masm",
+					"asm"
+				],
+				"extensions": [
+					".inc",
+					".asm",
+					".s"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "masm",
+				"scopeName": "source.inc, source.asm, source.s",
+				"path": "./syntaxes/masm.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "masm",
+				"scopeName": "source.inc, source.asm, source.s",
+				"path": "./snippets/flow.json"
+			},
+			{
+				"language": "masm",
+				"scopeName": "source.inc, source.asm, source.s",
+				"path": "./snippets/macro.json"
+			},
+			{
+				"language": "masm",
+				"scopeName": "source.inc, source.asm, source.s",
+				"path": "./snippets/segment.json"
+			}
+		]
+	}
+}

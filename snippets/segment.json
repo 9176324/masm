@@ -1,0 +1,20 @@
+{
+	".data": {
+		"prefix": ".DATA",
+		"body": [
+			"_DATA\\$00 SEGMENT PAGE 'DATA'\n",
+			"_DATA\\$00 ENDS\n"
+		],
+		"description": "code snippet for .data segment statement",
+		"scope": "source.asm, source.s"
+	},
+	".code": {
+		"prefix": ".CODE",
+		"body": [
+			"_TEXT\\$00 SEGMENT ALIGN(10h) 'CODE'\n",
+			"_TEXT\\$00 ENDS\n"
+		],
+		"description": "code snippet for .code segment statement",
+		"scope": "source.asm, source.s"
+	}
+}

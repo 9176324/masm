@@ -1,0 +1,49 @@
+{
+	".if": {
+		"prefix": ".IF",
+		"body": [
+			".IF ${1:CONDITION}",
+			"${2:STATEMENTS}",
+			".ENDIF"
+		],
+		"description": "code snippet for .if statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	".else": {
+		"prefix": ".ELSE",
+		"body": [
+			".ELSE"
+		],
+		"description": "code snippet for .else statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	".elseif": {
+		"prefix": ".ELSEIF",
+		"body": [
+			".ELSEIF ${1:CONDITION}",
+			"${2:STATEMENTS}"
+		],
+		"description": "code snippet for .elseif statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	".while": {
+		"prefix": ".WHILE",
+		"body": [
+			".WHILE ${1:CONDITION}",
+			"${2:STATEMENTS}",
+			".ENDW"
+		],
+		"description": "code snippet for .while statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	".repeat": {
+		"prefix": ".REPEAT",
+		"body": [
+			".REPEAT",
+			"${2:STATEMENTS}",
+			".UNTIL ${1:CONDITION}"
+		],
+		"description": "code snippet for .repeat statement",
+		"scope": "source.inc, source.asm, source.s"
+	}
+}

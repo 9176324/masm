@@ -1,0 +1,188 @@
+{
+	"if": {
+		"prefix": "IF",
+		"body": [
+			"IF ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDIF"
+		],
+		"description": "code snippet for if statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"if2": {
+		"prefix": "IF2",
+		"body": [
+			"IF2 ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDIF"
+		],
+		"description": "code snippet for if2 statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"ifb": {
+		"prefix": "IFB",
+		"body": [
+			"IFB ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDIF"
+		],
+		"description": "code snippet for ifb statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"ife": {
+		"prefix": "IFE",
+		"body": [
+			"IFE ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDIF"
+		],
+		"description": "code snippet for ife statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"ifnb": {
+		"prefix": "IFNB",
+		"body": [
+			"IFNB ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDIF"
+		],
+		"description": "code snippet for ifnb statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"ifdef": {
+		"prefix": "IFDEF",
+		"body": [
+			"IFDEF ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDIF"
+		],
+		"description": "code snippet for ifdef statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"ifdif": {
+		"prefix": "IFDIF",
+		"body": [
+			"IFDIF ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDIF"
+		],
+		"description": "code snippet for ifdif statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"ifidn": {
+		"prefix": "IFIDN",
+		"body": [
+			"IFIDN ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDIF"
+		],
+		"description": "code snippet for ifidn statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"else": {
+		"prefix": "ELSE",
+		"body": [
+			"ELSE"
+		],
+		"description": "code snippet for else statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"elseif": {
+		"prefix": "ELSEIF",
+		"body": [
+			"ELSEIF ${1:EXPRESSION}",
+			"${2:STATEMENTS}"
+		],
+		"description": "code snippet for elseif statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"elseif2": {
+		"prefix": "ELSEIF2",
+		"body": [
+			"ELSEIF2 ${1:EXPRESSION}",
+			"${2:STATEMENTS}"
+		],
+		"description": "code snippet for elseif2 statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"while": {
+		"prefix": "WHILE",
+		"body": [
+			"WHILE ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDM"
+		],
+		"description": "code snippet for while statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"for": {
+		"prefix": "FOR",
+		"body": [
+			"FOR ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDM"
+		],
+		"description": "code snippet for for statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"forc": {
+		"prefix": "FORC",
+		"body": [
+			"FORC ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDM"
+		],
+		"description": "code snippet for forc statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"irp": {
+		"prefix": "IRP",
+		"body": [
+			"IRP ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDM"
+		],
+		"description": "code snippet for irp statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"irpc": {
+		"prefix": "IRPC",
+		"body": [
+			"IRPC ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDM"
+		],
+		"description": "code snippet for irpc statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"repeat": {
+		"prefix": "REPEAT",
+		"body": [
+			"REPEAT ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDM"
+		],
+		"description": "code snippet for repeat statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"rept": {
+		"prefix": "REPT",
+		"body": [
+			"REPT ${1:EXPRESSION}",
+			"${2:STATEMENTS}",
+			"ENDM"
+		],
+		"description": "code snippet for rept statement",
+		"scope": "source.inc, source.asm, source.s"
+	},
+	"macro": {
+		"prefix": "MACRO",
+		"body": [
+			"${1:NAME} MACRO ${2:PARAMETER}",
+			"${3:STATEMENTS}",
+			"ENDM"
+		],
+		"description": "code snippet for macro statement",
+		"scope": "source.inc, source.asm, source.s"
+	}
+}
